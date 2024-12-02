@@ -273,8 +273,11 @@ section{
     display: flex;
 }
 
-.about-pic{
-    border-radius: 2rem;
+.about-pic {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    border-radius: 0; /* Ensure the image does not have rounded corners */
 }
 
 .arrow{
