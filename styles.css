@@ -170,11 +170,8 @@ section{
     margin: auto 0;
 }
 
-.section__pic-container img{
-    height: 100%;
-    width: 100%;
+#profile .section__pic-container img{
     border-radius: 50%;
-    object-fit: cover;
 }
 
 .section__text{
@@ -254,4 +251,39 @@ section{
 
 .btn-container{
     gap: 1rem;
+}
+
+/* ABOUT SECTION */
+#about{
+    position: relative;
+}
+
+.about-containers{
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about-details-container{
+    display: flex;
+}
+
+.about-pic{
+    border-radius: 2rem;
+}
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.section-container{
+    display: flex;
+    gap: 200px;
 }
